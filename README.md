@@ -7,16 +7,21 @@ This project focuses on segmenting customers based on their annual income and sp
 ## Project Overview
 The project involves analyzing a dataset of mall customers to cluster them into groups based on their annual income and spending score. The K-Means algorithm is used for unsupervised learning, with the number of clusters determined using the Elbow Method.
 
-## Workflow
-1. Data Collection and Analysis
-Loaded the dataset from Mall_Customers.csv and explored its structure.
-Checked for missing values and summary statistics of the dataset.
-2. Feature Selection
-Selected two features: Annual Income and Spending Score, to cluster the customers.
-3. Optimal Number of Clusters
-Used the Elbow Method to determine the optimal number of clusters. The number of clusters was found to be 5 based on the Within-Cluster Sum of Squares (WCSS) graph.
-4. K-Means Clustering
-Applied K-Means clustering with 5 clusters, and obtained labels for each customer.
+To represent your workflow as a clean and organized table or box-based graph in your README file, you can include the following formatted table:
+
+---
+
+### Workflow
+
+| **Step**                          | **Description**                                                                                                                                          |
+|------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Data Collection and Analysis**   | Loaded the dataset from `Mall_Customers.csv` and explored its structure. Checked for missing values and summary statistics of the dataset.                |
+| **Feature Selection**              | Selected two features: **Annual Income** and **Spending Score**, to cluster the customers.                                                             |
+| **Optimal Number of Clusters**     | Used the Elbow Method to determine the optimal number of clusters. The number of clusters was found to be **5** based on the Within-Cluster Sum of Squares (WCSS) graph. |
+| **K-Means Clustering**             | Applied K-Means clustering with **5 clusters**, and obtained labels for each customer.                                                                  |
+
+---
+
 
 ## Visualization
 Plotted the customer clusters with different colors and highlighted the centroids to show how customers are grouped based on income and spending scores.
